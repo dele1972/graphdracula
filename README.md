@@ -43,4 +43,4 @@ GraphDracula scheint eine ziemlich nahe Umsetzung zu sein, weswegen ich das hier
 ## Weitere Graph Libraries
 
 * [dagre (GitHub)](https://github.com/dagrejs/dagre/wiki)
-* ([Eine Liste an Libraries](https://stackoverflow.com/a/2366237) (StackOverflow)
+* [Eine Liste an Libraries](https://stackoverflow.com/a/2366237) (StackOverflow)
