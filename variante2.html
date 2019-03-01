@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <title>GraphDracula 2</title>
+        <meta name="description" content="" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+    
+        <meta http-equiv="cache-control" content="no-cache" />
+    
+        <link
+          href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Open+Sans+Condensed:300"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles/normalize.css" />
+        <link rel="stylesheet" href="styles/main.css" />
+    
+        <link rel="stylesheet" href="styles/spectre-0.5.8/spectre.min.css" />
+        <link rel="stylesheet" href="styles/spectre-0.5.8/spectre-exp.min.css" />
+        <link rel="stylesheet" href="styles/spectre-0.5.8/spectre-icons.min.css" />
+    
+        <link
+          rel="stylesheet"
+          href="styles/custom.css?parameter=2"
+          type="text/css"
+        />
+    
+        <!-- include embedded font awesome (registered)-->
+        <script src="https://use.fontawesome.com/e6dba31602.js"></script>
+    
+    </head>
+    <body>
+        <div id="head">
+            <h1>Graph Dracula</h1>
+        </div>
+            <div id="main">
+                <h2>Variante 2</h2>
+                <p>
+                    Übernommen aus <a href="https://www.graphdracula.net/simple.html" target="_blank">simple.html</a>, 
+                    also dem Beispiel aus <a href="https://www.graphdracula.net/" target="_blank">graphdracula.net</a>
+                    <br/><br/>
+                    Es wird <a href="https://github.com/DmitryBaranovskiy/raphael" target="_blank">Raphael JS</a> verwendet 
+                    (siehe auch: "<a href="http://raphaeljs.com/" target="_blank">An intro to Raphael</a>") - eine Bibliothek, 
+                    mit welcher per JS eine SVG erstellt werden kann.
+                    <br/><br/>
+                    <strong>Sonderbar</strong>: Anstelle der dracula lib wurden einzelne JS Files eingebunden, welche offiziell nicht
+                    dokumentiert oder downloadbar sind (<code>dracula_graffle.js</code>, <code>dracula_graph.js</code> und 
+                    <code>dracula_algorithms.js</code>).
+                </p>
+                <div id="canvas" style="border: 1px solid silver;text-align: center; background: whitesmoke;padding: 15px;"></div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script>
+        <script src="scripts/ameisenbar/dracula_graffle.js"></script>
+        <script src="scripts/ameisenbar/dracula_graph.js"></script>
+        <script src="scripts/ameisenbar/js/dracula_algorithms.js"></script>
+        <!-- <script src="http://dracula.ameisenbar.de/0.0.3alpha/js/dracula_graffle.js"></script>
+        <script src="http://dracula.ameisenbar.de/0.0.3alpha/js/dracula_graph.js"></script>
+        <script src="http://dracula.ameisenbar.de/0.0.3alpha/js/dracula_algorithms.js"></script> -->
+        <script src="scripts/myGraph.js"></script>
+    </body>
+</html>
